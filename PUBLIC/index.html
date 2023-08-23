@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/search.css">
+  <link rel="icon" href="../../EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" sizes="32x32" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>UR-LIS||GATE KEEPER</title>
+</head>
+
+<div class="header">
+    <img src="../EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" alt="Company Logo" class="logo">
+   <div class="system-imfo">
+    <h3 class="company-name">UNIVERSITY OF RWANDA</h2>
+    <h5 class="system-name">LAPTOP IMFORMATION SYSTEM</h5>
+</div> 
+    
+<div class="user-info">
+  <div>
+    <span class="account-position">GATE KEEPER</span>
+ </div>
+  <div class="user-profile">
+    <i class="fas fa-user fa-2x"></i>
+  </div>     
+</div> 
+  </div>
+  <div class="content">
+  <div class="sidebar">
+    <h3>Gate kepeer portal</h3>
+    <div class="search-section">
+      <label for="search-input">Search by Serial Number:</label>
+      <input type="text" id="search-input" placeholder="Enter serial number">
+      <button id="search-button"><i class="fas fa-search"></i></button>
+    </div>
+    <a href="#" class="main-link"><i class="fas fa-laptop"></i> Add New Computer</a>
+    <a href="#" class="main-link" id="logout-link"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+    <p class="copy-right" id="copyright"></p>
+  
+  </div>
+  <div class="main-content">
+    <div id="search-result" class="content-section">
+      <!-- Search result content will be displayed here -->
+    </div>
+</div>
+<div class="main-content">
+<div id="add-computer-form" class="content-section">
+  <h2>Add New Computer</h2>
+  <form id="new-computer-form">
+    <label for="full-name">Full Name:</label>
+    <input type="text" id="full-name" name="full-name" required>
+
+    <label for="reg-no">Registration Number:</label>
+    <input type="text" id="reg-no" name="reg-no" required>
+
+    <label for="tel">Telephone:</label>
+    <input type="tel" id="tel" name="tel" required>
+
+    <label for="computer-type">Computer Type:</label>
+    <input type="text" id="computer-type" name="computer-type" required>
+
+    <label for="serial-number">Serial Number:</label>
+    <input type="text" id="serial-number" name="serial-number" required>
+
+    <button type="submit">Add Computer</button>
+  </form>
+ </div>
+</div>
+<div class="logout-popup" id="logout-popup">
+    <div class="popup-content">
+      <h2>Confirm Logout</h2>
+      <p>Are you sure you want to log out?</p>
+      <div class="popup-buttons">
+        <button id="cancel-button">Cancel</button>
+        <button id="confirm-logout-button">Logout</button>
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+</div>
+  <script src="JS/newsearch.js"></script>
+</body>
+</html>

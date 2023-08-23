@@ -1,0 +1,5 @@
+#background-color:#34d5eb
+#button-color:#cce9ed
+
+----------------------fonts-------------------
+logo-font

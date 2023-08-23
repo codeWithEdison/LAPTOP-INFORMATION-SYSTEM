@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="../../EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" sizes="32x32" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/home.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>UR-LIS || Admin</title>
+</head>
+<body>
+  <div class="header">
+    <img src="../EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" alt="Company Logo" class="logo">
+   <div class="system-imfo">
+    <h3 class="company-name">UNIVERSITY OF RWANDA</h2>
+    <h5 class="system-name">LAPTOP IMFORMATION SYSTEM</h5>
+</div> 
+    
+<div class="user-info">
+  <div>
+    <span class="account-position">ADMIN</span>
+ </div>
+  <div class="user-profile">
+    <i class="fas fa-user fa-2x"></i>
+  </div>     
+</div> 
+  </div>
+  
+  <div class="content">
+    <div class="sidebar">
+      <h4>ADMIN PORTAL</h4>
+      <a href="#" class="main-link" id="report-link"><i class="fas fa-chart-bar"></i> Report</a>
+      <a href="#" class="main-link" id="change-credentials-link"><i class="fas fa-key"></i>Change Credentials</a>     
+        <a href="#" class="main-link" id="add-users-link"><i class="fas fa-user-plus"></i>add user</a>
+        <a href="#" class="main-link" id="modify-users-link"><i class="fas fa-user-edit"></i>modify user</a>
+        <a href="#" class="main-link" id="logout-link"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+        <!-- </div>  -->
+      <p class="copy-right" id="copyright"></p>
+    </div>
+    <div class="main-content">
+      <div id="report-content" class="content-section">
+        <div class="report-container">
+          <h1>Computer System Report</h1>
+          <div class="report-section">
+            
+      <h2><i class="fas fa-desktop"></i> Total Registered Computers</h2>
+      <p class="statistic">250</p>
+    </div>
+    <div class="report-section">
+      <h2><i class="fas fa-calendar-alt"></i> Monthly Registered Computers</h2>
+      <p class="statistic">50</p>
+    </div>
+    <div class="report-section">
+      <h2><i class="fas fa-search"></i> Monthly Searched Computers</h2>
+      <p class="statistic">1000</p>
+    </div>
+    <div class="report-section">
+      <h2><i class="fas fa-calendar-day"></i> Daily Registered Computers</h2>
+      <p class="statistic">5</p>
+    </div>
+    <div class="report-section">
+      <h2><i class="fas fa-search"></i> Daily Searched Computers</h2>
+      <p class="statistic">150</p>
+          </div>
+        </div>
+      
+      </div>
+      <div id="change-credentials-content" class="content-section">
+        <form id="change-credentials-form" class="user-form">
+          <h2>Change Credentials</h2>
+          <label for="old-password">Old Password:</label>
+          <input type="password" id="old-password" name="old-password" required>
+          <label for="new-password">New Password:</label>
+          <input type="password" id="new-password" name="new-password" required>
+          <button type="submit">Change Password</button>
+        </form>
+      </div>
+      <div id="create-user-content" class="content-section">
+        <form id="create-user-form" class="user-form">
+          <h2>Create New User</h2>
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+          <button type="submit">Create User</button>
+        </form>
+      </div>
+      <div id="modify-user-content" class="content-section">
+        <form id="modify-user-form" class="user-form">
+          <h2>Modify User Credentials</h2>
+          <label for="user-id">User ID:</label>
+          <input type="text" id="user-id" name="user-id" required>
+          <label for="new-username">New Username:</label>
+          <input type="text" id="new-username" name="new-username" required>
+          <label for="new-password">New Password:</label>
+          <input type="password" id="new-password" name="new-password" required>
+          <button type="submit">Modify User</button>
+        </form>
+      </div>
+      <div class="logout-popup" id="logout-popup">
+        <div class="popup-content">
+          <h2>Confirm Logout</h2>
+          <p>Are you sure you want to log out?</p>
+          <div class="popup-buttons">
+            <button id="cancel-button">Cancel</button>
+            <button id="confirm-logout-button">Logout</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="JS/home.js"></script>
+</body>
+</html>

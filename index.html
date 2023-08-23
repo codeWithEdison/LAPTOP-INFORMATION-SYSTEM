@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" sizes="32x32" />
+  <link rel="stylesheet" href="PUBLIC/CSS/login.css">
+  <title>UR-LIS</title>
+  <script src="PUBLIC/JS/login.js"></script>
+</head>
+<body>
+  <div class="login-container">
+    <div class="logo">
+      <img src="EXTERNAL/IMG/University_of_Rwanda_-_LOGO_B_RV.png" alt="Company Logo">
+    </div>
+    <h1 class="company-name">UNIVERSITY OF RWANDA</h1>
+    <h2 class="system-name">laptop Information system</h2>
+    
+    <form class="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      
+      <button type="button" id="login-button" onclick="">Login</button>
+    </form>
+  </div>
+  
+
+  <script>
+ 
+login = document.getElementById("login-button");
+login.onclick = ()=>{
+    document.location.replace("PUBLIC/index.html");
+ }
+
+  </script>
+</body>
+</html>

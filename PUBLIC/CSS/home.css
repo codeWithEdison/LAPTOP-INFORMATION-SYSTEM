@@ -1,0 +1,135 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebeaea;
+  }
+  
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+    background-color: #f0f0f0;
+    box-sizing: 2px 2px 2px 2px gray;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .company-name {
+    text-align: center;
+    flex-grow: 1;
+    color: #3498db;
+  }
+  .system-name{
+    margin-top: -20px;
+    color: #15547e;
+  }
+  
+  .user-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+.account-position {
+  font-size: 18px;
+
+  text-align: center;
+}
+.user-profile{
+  width: 30px;
+  height: 30px;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgb(43, 43, 171) inset;
+  cursor: pointer;
+  
+}
+  
+  .content {
+    display: flex;
+  }
+  
+  .left-content {
+    width: 30%;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .search-input {
+    width: 70%;
+    padding: 8px;
+    margin-top: 25px;
+    border-radius: 5px;
+    
+  }
+  
+  .search-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    display: inline-flex;
+    border-radius: 5px;
+
+  }
+  .logout-button {
+    background-color: rgb(116, 2, 2);
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 5px;
+
+  }
+  .new-label {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .register-link {
+    text-decoration: none;
+    color: #3498db;
+    display: inline;
+    margin-top: 5px;
+  }
+  
+  .copyrignt {
+    margin-top: 02px;
+    text-align: center;
+    font-size: 12px;
+  }
+  
+  .right-content {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #6e97b1;
+    box-shadow: 2px 2px 2px 2px#8ca9bc;
+    margin-right: 40px;
+    border-radius: 0px 5px 5px 0px;
+    margin-top: 10px;
+  }
+  
+  .ok-button {
+    background-color: #2ecc71;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  .user-data{
+    font-weight: bolder;
+  }
+  .footer{
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 10px;
+  }
